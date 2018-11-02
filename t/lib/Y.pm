@@ -7,3 +7,5 @@ use parent 'X';
 sub call_from_child_method {
     shift->allin_method;
 }
+
+1;

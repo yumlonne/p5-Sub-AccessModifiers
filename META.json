@@ -48,12 +48,24 @@
       "test" : {
          "requires" : {
             "Test::Exception" : "0",
+            "Test::MockModule" : "0",
             "Test::More" : "0.98",
             "Test::Spec" : "0"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/yumlonne/p5-Sub-AccessModifiers/issues"
+      },
+      "homepage" : "https://github.com/yumlonne/p5-Sub-AccessModifiers",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/yumlonne/p5-Sub-AccessModifiers.git",
+         "web" : "https://github.com/yumlonne/p5-Sub-AccessModifiers"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 2.97001",
    "x_static_install" : 1
